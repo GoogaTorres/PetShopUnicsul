@@ -1,0 +1,174 @@
+.titulo{
+    font-size: 50px;
+    color: #863636;
+    text-align: center;
+}
+header{
+    background-color: #863636;
+    border-radius: 15px;
+    height: 150px;
+}
+
+body{
+    background-image: url(imgs/bg.jpg);
+}
+
+.bg2{
+    background-color: #fada96;
+    height: 90px;
+}
+.login{
+    background-color: #fada96;
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+    border-style: solid; border-color: #d6d6d6; 
+    border-width: 1px;
+    box-shadow: #0000002f 5px 5px 10px;
+}
+
+.login label button{
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.login button{
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#botao-login{
+    margin-top: 5px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.formulario{
+    padding: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+
+.bgbody{
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: #ffffff2f;
+    border-radius: 10px;
+    height: 100%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+}
+
+header h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:1000;
+    text-shadow: #0000003d 3px 3px 3px;
+}
+
+.hyperlinks{
+    list-style-type: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #863636;
+    text-shadow: #000000bb 3px 3px 5px;
+    list-style-type: none;
+    color: inherit;
+    text-align: center;
+    margin: 10px;
+}
+
+.hyperlinks a{
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.iconeCarrinho{
+    position: absolute;
+    width: 40px;
+    margin-left: 300px;
+}
+
+
+.produtos{
+    width: 1000px;
+    padding-top: 10px;
+}
+
+.produto{
+    width: 300px;
+    height: 450px;
+    background-color:#fada96;
+    padding: 5px;
+    border-radius: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-inline: 10px;
+    text-align: center;
+    float: left;
+    border: #ffffff2f;
+    border-style: solid; border-color: #d6d6d6; 
+    border-width: 1px;
+    box-shadow: #0000002f 2px 2px 10px;
+}
+
+.produto{
+    border-radius: 10px;
+}
+
+.produto img{
+    width: 250px;
+    border-radius: 10px;
+}
+
+.produto h1{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 60px;
+    text-shadow: #00000027 3px 3px 5px;
+}
+
+.produto button{
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: right;
+    background-color: #ffffff7c;
+    border-radius: 5px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-width: 1px;
+}
+
+.produto-parte-inferior{
+    color: #863636;
+    line-height: 0px;
+}
+
+.produto-parte-inferior h2{
+    font-weight: 900;
+    font-size: 35px;
+}
+
+#preco{
+    text-shadow: #00000027 3px 3px 2px;
+}
+
+footer{
+    background-color: #fada96;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    border-radius: 10px;
+    border: #ffffff2f;
+    border-style: solid; border-color: #d6d6d6; 
+    border-width: 1px;
+    box-shadow: #0000002f 5px 5px 10px;
+    margin-top: 10px;
+    line-height: 2px;
+}

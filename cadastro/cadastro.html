@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contato </title>
+    <link rel="stylesheet" href="teste1.css">
+</head>
+<header>
+    <div class="bg2">
+    <h1 class="titulo">Pet Shop Cruzeiro do Sul</h1>
+    <nav class="hyperlinks">
+        <a href="../index.html">HOME</a>
+        <a href="../sobrenos/petshop_sobrenos.html">SOBRE NÓS</a> 
+        <a href="cadastro.html">CADASTRE-SE</a> 
+        <a href=""><img src="imgs/carrinho-compras.png" class="iconeCarrinho"></a>
+    </nav>
+    </div>
+</header>
+<body>
+    <div class="bgbody">
+        <div class="bg-cadastro">
+            <main class="cadastro">
+            <h1>Cadastre-se </h1>
+            <form action="formulario" method="POST">
+                <label for="nome">Nome do Cliente:</label>
+                <input type="text" id="nome" name="nome" required><br><br>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="animal">Nome do Pet:</label>
+                <input type="text" id="animal" name="animal" required><br><br>
+                <label for="data">Data de Nasc. Pet:</label>
+                <input type="date" id="data" name="data" required><br><br>
+                <label for="Especie"> Espécie: </label>
+                <input type="radio" id="Canino" name="especie" value="Canino">
+                <label for="Canino">Canino</label>
+                <input type="radio" id="Felino" name="especie" value="Felino">
+                <label for="Felino">Felino</label>
+                <input type="radio" id="Outros" name="especie" value="Outros">
+                <label for="Outros">Outros</label><br><br>
+                <label for="servico">Serviço Desejado:</label>
+                <select id="servico" name="servico" required>
+        <option value="consulta">Consulta Veterinária</option>
+                    <option value="banhoetosa">Banho e Tosa</option>
+                    <option value="vacinas">Vacinas</option>
+                    <option value="adoção"> Adoção</option>
+                    <option value="hospedagempet"> Hospedagem Pet </option>
+                    <option value="crechepet"> Creche Pet </option>
+                    <option value="petsister">Pet Sister</option>
+                    <option value="dogwalker"> Dog Walker</option>
+                    <option value="adestramento"> Adestramento</option>
+
+                </select><br><br>
+
+                <label for="comentarios">Comentários Adicionais:</label><br>
+                <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea><br><br>
+
+                <input type="submit" value="Enviar">
+            </form>
+            </main>
+        </div>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <div class="creditos-footer"><p>Desenvolvido por: Caroline J. De Santana; Gustavo Torres e Nicole Brito</p><br><p>© 2023 Pet Shop Cruzeiro do Sul</p></div>
+</footer>
+</html>
